@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>calculator</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
+<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+
+        <link rel="stylesheet" href="css/calculator.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <link href='https://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower">
+<div class="container-fluid">
+  <h1 class="text-primary">Simple Calculator App</h1>
+  <h2>c -> clear | p -> &#960;</h2>
+  <br><br>
+  <div class="container well" id="calc">
+    <div class="well displayer"></div>
+    <span class="row">
+      <button class="btn btn-danger op-btn" id="ac" >AC</button>
+      <button class="btn btn-danger op-btn" id="del">Del</button>
+      <button class="btn btn-warning op-btn" id="para">()</button>
+      <button class="btn btn-warning op-btn" id="divide" data-value="/">/</button>
+    </span>
+    <span class="row">
+      <button class="btn default-btn num-btn" id="7" data-value="7">7</button>
+      <button class="btn default-btn num-btn" id="8" data-value="8">8</button>
+      <button class="btn default-btn num-btn" id="9" data-value="9">9</button>
+      <button class="btn btn-warning op-btn" id="times" data-value="*">x</button>
+    </span>
+    <span class="row">
+      <button class="btn default-btn num-btn" id="4" data-value="4">4</button>
+      <button class="btn default-btn num-btn" id="5" data-value="5">5</button>
+      <button class="btn default-btn num-btn" id="6" data-value="6">6</button>
+      <button class="btn btn-warning op-btn" id="minus" data-value="-">-</button>
+    </span>
+    <span class="row">
+      <button class="btn default-btn num-btn" id="1" data-value="1">1</button>
+      <button class="btn default-btn num-btn" id="2" data-value="2">2</button>
+      <button class="btn default-btn num-btn" id="3" data-value="3">3</button>
+      <button class="btn btn-warning op-btn" id="plus" data-value="+">+</button>
+    </span>  
+    <span class="row">
+      <button class="btn default-btn num-btn" id="0" data-value="0">0</button>
+      <button class="btn default-btn num-btn" id="point" data-value=".">.</button>
+      <button class="btn default-btn num-btn" id="pi" data-value="3.14159">π</button>
+      <button class="btn btn-success op-btn" id="enter">EXE</button>
+    </span> 
+  </div>
+  <footer><small>Created by: <a href="http://billelattouchi.me">ATTOUCHI Billel</a></small></footer>
+</div>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+        <script src="js/calculator.js"></script>
+
+    
+    
+    
+  </body>
+</html>

@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+}
+.container-fluid {
+  margin: 2em;
+  background-color: #ddd;
+  padding-bottom: 20em;
+}
+h1 {
+  font-family: 'Lobster Two';
+  text-align: center;
+}
+h2 {
+  font-family: Indie Flower,cursive;
+  text-align: center;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 3px;
+  color: white;
+  opacity: 0.5
+}
+#calc {
+  background-color: green;
+  text-align: center;
+  width: 22em;
+  border-radius: 15%;
+box-shadow: 10px 10px 5px grey;}
+.btn {
+  width: 3.5em;
+}
+.displayer {
+  width: 14em;
+  margin: auto;
+  background-color: white;
+  height: 3em;
+  overflow: auto;
+}
+
